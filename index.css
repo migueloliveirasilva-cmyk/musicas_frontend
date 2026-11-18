@@ -10,14 +10,12 @@ body {
 }
 
 header {
-    background-color: #6c47ff;
-    color: #fff;
-    padding: 20px 24px;
     display: flex;
-    align-items: center;
     justify-content: space-between;
-    flex-wrap: wrap;
-    gap: 12px;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: #6c3fc5;
+    color: #fff;
 }
 
 header h1 {
@@ -25,23 +23,23 @@ header h1 {
     font-size: 28px;
 }
 
-.cadastrar {
+header a {
+    padding: 10px 18px;
     background-color: #fff;
-    color: #6c47ff;
+    color: #6c3fc5;
     text-decoration: none;
     font-weight: bold;
-    padding: 10px 18px;
     border-radius: 6px;
 }
 
-.cadastrar:hover {
-    background-color: #ece7ff;
+header a:hover {
+    background-color: #e9defa;
 }
 
 main {
-    max-width: 720px;
-    margin: 0 auto;
-    padding: 24px;
+    max-width: 700px;
+    margin: 30px auto;
+    padding: 0 20px;
 }
 
 #listaMusicas {
@@ -52,20 +50,20 @@ main {
 
 .musica {
     background-color: #fff;
-    border-left: 6px solid #6c47ff;
+    padding: 20px;
     border-radius: 8px;
-    padding: 16px 20px;
+    border-left: 6px solid #6c3fc5;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
 }
 
 .musica h2 {
     margin: 0 0 6px 0;
     font-size: 22px;
+    color: #6c3fc5;
 }
 
 .artista {
     margin: 0 0 4px 0;
-    color: #6c47ff;
     font-weight: bold;
 }
 
@@ -82,28 +80,31 @@ main {
 
 .editar,
 .apagar {
-    font-size: 14px;
     padding: 8px 16px;
+    font-size: 14px;
     border-radius: 6px;
-    border: none;
     cursor: pointer;
     text-decoration: none;
+    font-family: inherit;
 }
 
 .editar {
-    background-color: #6c47ff;
+    background-color: #6c3fc5;
     color: #fff;
+    border: 1px solid #6c3fc5;
 }
 
 .editar:hover {
-    background-color: #5535d6;
+    background-color: #5530a3;
 }
 
 .apagar {
-    background-color: #e5e5ea;
-    color: #b00020;
+    background-color: #fff;
+    color: #c0392b;
+    border: 1px solid #c0392b;
 }
 
 .apagar:hover {
-    background-color: #f8d7da;
+    background-color: #c0392b;
+    color: #fff;
 }
